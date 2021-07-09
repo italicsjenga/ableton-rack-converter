@@ -1,3 +1,6 @@
+use ableton_rack_converter::load_adg;
+
 fn main() {
-    println!("ableton live rack converter");
+    let filename = String::from("C:\\Users\\janka\\Documents\\Projects\\Programming\\ableton-rack-converter\\validation\\Utility10.adg");
+    let device = load_adg(&filename);
 }

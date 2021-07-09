@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Ableton MajorVersion="5" MinorVersion="10.0_377" SchemaChangeCount="5" Creator="Ableton Live 10.1.35" Revision="a4cc5da58a12b2430753133883a25ad12aa979b7">
+	<GroupDevicePreset>
+		<OverwriteProtectionNumber Value="2561" />
+		<Device>
+			<AudioEffectGroupDevice Id="0">
+				<LomId Value="0" />
+				<LomIdView Value="0" />
+				<IsExpanded Value="true" />
+				<On>
+					<LomId Value="0" />
+					<Manual Value="true" />
+					<AutomationTarget Id="0">
+						<LockEnvelope Value="0" />
+					</AutomationTarget>
+					<MidiCCOnOffThresholds>
+						<Min Value="64" />
+						<Max Value="127" />
+					</MidiCCOnOffThresholds>
+				</On>
+				<ParametersListWrapper LomId="0" />
+				<LastSelectedTimeableIndex Value="0" />
+				<LastSelectedClipEnvelopeIndex Value="0" />
+				<LastPresetRef>
+					<Value>
+						<AbletonDefaultPresetRef Id="0">
+							<FileRef>
+								<HasRelativePath Value="true" />
+								<RelativePathType Value="5" />
+								<RelativePath>
+									<RelativePathElement Id="0" Dir="Devices" />
+									<RelativePathElement Id="1" Dir="Audio Effects" />
+									<RelativePathElement Id="2" Dir="Audio Effect Rack" />
+								</RelativePath>
+								<Name Value="" />
+								<Type Value="1" />
+								<Data>
+									43003A005C00500072006F006700720061006D0044006100740061005C00410062006C0065007400
+									6F006E005C004C006900760065002000310030002000530075006900740065005C00520065007300
+									6F00750072006300650073005C0043006F007200650020004C006900620072006100720079005C00
+									44006500760069006300650073005C0041007500640069006F002000450066006600650063007400
+									73005C0041007500640069006F00200045006600660065006300740020005200610063006B000000
+								</Data>
+								<RefersToFolder Value="true" />
+								<SearchHint>
+									<PathHint />
+									<FileSize Value="0" />
+									<Crc Value="0" />
+									<MaxCrcSize Value="0" />
+									<HasExtendedInfo Value="false" />
+								</SearchHint>
+								<LivePackName Value="Core Library" />
+								<LivePackId Value="www.ableton.com/0" />
+							</FileRef>
+							<DeviceId Name="AudioEffectGroupDevice" />
+						</AbletonDefaultPresetRef>
+					</Value>
+				</LastPresetRef>
+				<LockedScripts />
+				<IsFolded Value="false" />
+				<ShouldShowPresetName Value="true" />
+				<UserName Value="" />
+				<Annotation Value="" />
+				<SourceContext>
+					<Value />
+				</SourceContext>
+				<OverwriteProtectionNumber Value="2561" />
+				<Branches />
+				<IsBranchesListVisible Value="true" />
+				<IsReturnBranchesListVisible Value="false" />
+				<IsRangesEditorVisible Value="false" />
+				<AreDevicesVisible Value="false" />
+				<MacroControls.0>
+					<LomId Value="0" />
+					<Manual Value="0" />
+					<MidiControllerRange>
+						<Min Value="0" />
+						<Max Value="127" />
+					</MidiControllerRange>
+					<AutomationTarget Id="0">
+						<LockEnvelope Value="0" />
+					</AutomationTarget>
+					<ModulationTarget Id="0">
+						<LockEnvelope Value="0" />
+					</ModulationTarget>
+				</MacroControls.0>
+				<MacroControls.1>
+					<LomId Value="0" />
+					<Manual Value="0" />
+					<MidiControllerRange>
+						<Min Value="0" />
+						<Max Value="127" />
+					</MidiControllerRange>
+					<AutomationTarget Id="0">
+						<LockEnvelope Value="0" />
+					</AutomationTarget>
+					<ModulationTarget Id="0">
+						<LockEnvelope Value="0" />
+					</ModulationTarget>
+				</MacroControls.1>
+				<MacroControls.2>
+					<LomId Value="0" />
+					<Manual Value="0" />
+					<MidiControllerRange>
+						<Min Value="0" />
+						<Max Value="127" />
+					</MidiControllerRange>
+					<AutomationTarget Id="0">
+						<LockEnvelope Value="0" />
+					</AutomationTarget>
+					<ModulationTarget Id="0">
+						<LockEnvelope Value="0" />
+					</ModulationTarget>
+				</MacroControls.2>
+				<MacroControls.3>
+					<LomId Value="0" />
+					<Manual Value="0" />
+					<MidiControllerRange>
+						<Min Value="0" />
+						<Max Value="127" />
+					</MidiControllerRange>
+					<AutomationTarget Id="0">
+						<LockEnvelope Value="0" />
+					</AutomationTarget>
+					<ModulationTarget Id="0">
+						<LockEnvelope Value="0" />
+					</ModulationTarget>
+				</MacroControls.3>
+				<MacroControls.4>
+					<LomId Value="0" />
+					<Manual Value="0" />
+					<MidiControllerRange>
+						<Min Value="0" />
+						<Max Value="127" />
+					</MidiControllerRange>
+					<AutomationTarget Id="0">
+						<LockEnvelope Value="0" />
+					</AutomationTarget>
+					<ModulationTarget Id="0">
+						<LockEnvelope Value="0" />
+					</ModulationTarget>
+				</MacroControls.4>
+				<MacroControls.5>
+					<LomId Value="0" />
+					<Manual Value="0" />
+					<MidiControllerRange>
+						<Min Value="0" />
+						<Max Value="127" />
+					</MidiControllerRange>
+					<AutomationTarget Id="0">
+						<LockEnvelope Value="0" />
+					</AutomationTarget>
+					<ModulationTarget Id="0">
+						<LockEnvelope Value="0" />
+					</ModulationTarget>
+				</MacroControls.5>
+				<MacroControls.6>
+					<LomId Value="0" />
+					<Manual Value="0" />
+					<MidiControllerRange>
+						<Min Value="0" />
+						<Max Value="127" />
+					</MidiControllerRange>
+					<AutomationTarget Id="0">
+						<LockEnvelope Value="0" />
+					</AutomationTarget>
+					<ModulationTarget Id="0">
+						<LockEnvelope Value="0" />
+					</ModulationTarget>
+				</MacroControls.6>
+				<MacroControls.7>
+					<LomId Value="0" />
+					<Manual Value="0" />
+					<MidiControllerRange>
+						<Min Value="0" />
+						<Max Value="127" />
+					</MidiControllerRange>
+					<AutomationTarget Id="0">
+						<LockEnvelope Value="0" />
+					</AutomationTarget>
+					<ModulationTarget Id="0">
+						<LockEnvelope Value="0" />
+					</ModulationTarget>
+				</MacroControls.7>
+				<MacroDisplayNames.0 Value="Macro 1" />
+				<MacroDisplayNames.1 Value="Macro 2" />
+				<MacroDisplayNames.2 Value="Macro 3" />
+				<MacroDisplayNames.3 Value="Macro 4" />
+				<MacroDisplayNames.4 Value="Macro 5" />
+				<MacroDisplayNames.5 Value="Macro 6" />
+				<MacroDisplayNames.6 Value="Macro 7" />
+				<MacroDisplayNames.7 Value="Macro 8" />
+				<MacroDefaults.0 Value="-1" />
+				<MacroDefaults.1 Value="-1" />
+				<MacroDefaults.2 Value="-1" />
+				<MacroDefaults.3 Value="-1" />
+				<MacroDefaults.4 Value="-1" />
+				<MacroDefaults.5 Value="-1" />
+				<MacroDefaults.6 Value="-1" />
+				<MacroDefaults.7 Value="-1" />
+				<MacroAnnotations.0 Value="" />
+				<MacroAnnotations.1 Value="" />
+				<MacroAnnotations.2 Value="" />
+				<MacroAnnotations.3 Value="" />
+				<MacroAnnotations.4 Value="" />
+				<MacroAnnotations.5 Value="" />
+				<MacroAnnotations.6 Value="" />
+				<MacroAnnotations.7 Value="" />
+				<ForceDisplayGenericValue.0 Value="false" />
+				<ForceDisplayGenericValue.1 Value="false" />
+				<ForceDisplayGenericValue.2 Value="false" />
+				<ForceDisplayGenericValue.3 Value="false" />
+				<ForceDisplayGenericValue.4 Value="false" />
+				<ForceDisplayGenericValue.5 Value="false" />
+				<ForceDisplayGenericValue.6 Value="false" />
+				<ForceDisplayGenericValue.7 Value="false" />
+				<AreMacroControlsVisible Value="false" />
+				<IsAutoSelectEnabled Value="false" />
+				<ChainSelector>
+					<LomId Value="0" />
+					<Manual Value="0" />
+					<MidiControllerRange>
+						<Min Value="0" />
+						<Max Value="127" />
+					</MidiControllerRange>
+					<AutomationTarget Id="0">
+						<LockEnvelope Value="0" />
+					</AutomationTarget>
+					<ModulationTarget Id="0">
+						<LockEnvelope Value="0" />
+					</ModulationTarget>
+				</ChainSelector>
+				<ChainSelectorRelativePosition Value="-1073741824" />
+				<ViewsToRestoreWhenUnfolding Value="2" />
+				<ReturnBranches />
+				<BranchesSplitterProportion Value="0.5" />
+				<ShowBranchesInSessionMixer Value="false" />
+				<MacroColorIndex.0 Value="0" />
+				<MacroColorIndex.1 Value="0" />
+				<MacroColorIndex.2 Value="0" />
+				<MacroColorIndex.3 Value="0" />
+				<MacroColorIndex.4 Value="0" />
+				<MacroColorIndex.5 Value="0" />
+				<MacroColorIndex.6 Value="0" />
+				<MacroColorIndex.7 Value="0" />
+				<LockId Value="0" />
+				<LockSeal Value="0" />
+				<ChainsListWrapper LomId="0" />
+				<ReturnChainsListWrapper LomId="0" />
+			</AudioEffectGroupDevice>
+		</Device>
+		<PresetRef>
+			<AbletonDefaultPresetRef Id="0">
+				<FileRef>
+					<HasRelativePath Value="true" />
+					<RelativePathType Value="5" />
+					<RelativePath>
+						<RelativePathElement Id="0" Dir="Devices" />
+						<RelativePathElement Id="1" Dir="Audio Effects" />
+						<RelativePathElement Id="2" Dir="Audio Effect Rack" />
+					</RelativePath>
+					<Name Value="" />
+					<Type Value="1" />
+					<Data>
+						43003A005C00500072006F006700720061006D0044006100740061005C00410062006C0065007400
+						6F006E005C004C006900760065002000310030002000530075006900740065005C00520065007300
+						6F00750072006300650073005C0043006F007200650020004C006900620072006100720079005C00
+						44006500760069006300650073005C0041007500640069006F002000450066006600650063007400
+						73005C0041007500640069006F00200045006600660065006300740020005200610063006B000000
+					</Data>
+					<RefersToFolder Value="true" />
+					<SearchHint>
+						<PathHint />
+						<FileSize Value="0" />
+						<Crc Value="0" />
+						<MaxCrcSize Value="0" />
+						<HasExtendedInfo Value="false" />
+					</SearchHint>
+					<LivePackName Value="Core Library" />
+					<LivePackId Value="www.ableton.com/0" />
+				</FileRef>
+				<DeviceId Name="AudioEffectGroupDevice" />
+			</AbletonDefaultPresetRef>
+		</PresetRef>
+		<BranchPresets>
+			<AudioEffectBranchPreset Id="0">
+				<Name Value="" />
+				<IsSoloed Value="false" />
+				<DevicePresets>
+					<AbletonDevicePreset Id="0">
+						<OverwriteProtectionNumber Value="2561" />
+						<Device>
+							<StereoGain Id="0">
+								<LomId Value="0" />
+								<LomIdView Value="0" />
+								<IsExpanded Value="true" />
+								<On>
+									<LomId Value="0" />
+									<Manual Value="true" />
+									<AutomationTarget Id="0">
+										<LockEnvelope Value="0" />
+									</AutomationTarget>
+									<MidiCCOnOffThresholds>
+										<Min Value="64" />
+										<Max Value="127" />
+									</MidiCCOnOffThresholds>
+								</On>
+								<ParametersListWrapper LomId="0" />
+								<LastSelectedTimeableIndex Value="0" />
+								<LastSelectedClipEnvelopeIndex Value="0" />
+								<LastPresetRef>
+									<Value>
+										<AbletonDefaultPresetRef Id="0">
+											<FileRef>
+												<HasRelativePath Value="false" />
+												<RelativePathType Value="0" />
+												<RelativePath />
+												<Name Value="" />
+												<Type Value="0" />
+												<Data />
+												<RefersToFolder Value="false" />
+												<SearchHint>
+													<PathHint />
+													<FileSize Value="0" />
+													<Crc Value="0" />
+													<MaxCrcSize Value="0" />
+													<HasExtendedInfo Value="false" />
+												</SearchHint>
+												<LivePackName Value="" />
+												<LivePackId Value="" />
+											</FileRef>
+											<DeviceId Name="StereoGain" />
+										</AbletonDefaultPresetRef>
+									</Value>
+								</LastPresetRef>
+								<LockedScripts />
+								<IsFolded Value="false" />
+								<ShouldShowPresetName Value="true" />
+								<UserName Value="" />
+								<Annotation Value="" />
+								<SourceContext>
+									<Value />
+								</SourceContext>
+								<OverwriteProtectionNumber Value="2561" />
+								<PhaseInvertL>
+									<LomId Value="0" />
+									<Manual Value="false" />
+									<AutomationTarget Id="0">
+										<LockEnvelope Value="0" />
+									</AutomationTarget>
+									<MidiCCOnOffThresholds>
+										<Min Value="64" />
+										<Max Value="127" />
+									</MidiCCOnOffThresholds>
+								</PhaseInvertL>
+								<PhaseInvertR>
+									<LomId Value="0" />
+									<Manual Value="false" />
+									<AutomationTarget Id="0">
+										<LockEnvelope Value="0" />
+									</AutomationTarget>
+									<MidiCCOnOffThresholds>
+										<Min Value="64" />
+										<Max Value="127" />
+									</MidiCCOnOffThresholds>
+								</PhaseInvertR>
+								<ChannelMode>
+									<LomId Value="0" />
+									<Manual Value="1" />
+									<AutomationTarget Id="0">
+										<LockEnvelope Value="0" />
+									</AutomationTarget>
+								</ChannelMode>
+								<StereoWidth>
+									<LomId Value="0" />
+									<Manual Value="1" />
+									<MidiControllerRange>
+										<Min Value="0" />
+										<Max Value="4" />
+									</MidiControllerRange>
+									<AutomationTarget Id="0">
+										<LockEnvelope Value="0" />
+									</AutomationTarget>
+									<ModulationTarget Id="0">
+										<LockEnvelope Value="0" />
+									</ModulationTarget>
+								</StereoWidth>
+								<MidSideBalance>
+									<LomId Value="0" />
+									<Manual Value="1" />
+									<MidiControllerRange>
+										<Min Value="0" />
+										<Max Value="2" />
+									</MidiControllerRange>
+									<AutomationTarget Id="0">
+										<LockEnvelope Value="0" />
+									</AutomationTarget>
+									<ModulationTarget Id="0">
+										<LockEnvelope Value="0" />
+									</ModulationTarget>
+								</MidSideBalance>
+								<MidSideBalanceOn Value="false" />
+								<Mono>
+									<LomId Value="0" />
+									<Manual Value="false" />
+									<AutomationTarget Id="0">
+										<LockEnvelope Value="0" />
+									</AutomationTarget>
+									<MidiCCOnOffThresholds>
+										<Min Value="64" />
+										<Max Value="127" />
+									</MidiCCOnOffThresholds>
+								</Mono>
+								<BassMono>
+									<LomId Value="0" />
+									<Manual Value="false" />
+									<AutomationTarget Id="0">
+										<LockEnvelope Value="0" />
+									</AutomationTarget>
+									<MidiCCOnOffThresholds>
+										<Min Value="64" />
+										<Max Value="127" />
+									</MidiCCOnOffThresholds>
+								</BassMono>
+								<BassMonoAudition Value="false" />
+								<BassMonoFrequency>
+									<LomId Value="0" />
+									<Manual Value="120" />
+									<MidiControllerRange>
+										<Min Value="50" />
+										<Max Value="500" />
+									</MidiControllerRange>
+									<AutomationTarget Id="0">
+										<LockEnvelope Value="0" />
+									</AutomationTarget>
+									<ModulationTarget Id="0">
+										<LockEnvelope Value="0" />
+									</ModulationTarget>
+								</BassMonoFrequency>
+								<Balance>
+									<LomId Value="0" />
+									<Manual Value="0" />
+									<MidiControllerRange>
+										<Min Value="-1" />
+										<Max Value="1" />
+									</MidiControllerRange>
+									<AutomationTarget Id="0">
+										<LockEnvelope Value="0" />
+									</AutomationTarget>
+									<ModulationTarget Id="0">
+										<LockEnvelope Value="0" />
+									</ModulationTarget>
+								</Balance>
+								<Gain>
+									<LomId Value="0" />
+									<Manual Value="1" />
+									<MidiControllerRange>
+										<Min Value="0" />
+										<Max Value="56.2341309" />
+									</MidiControllerRange>
+									<AutomationTarget Id="0">
+										<LockEnvelope Value="0" />
+									</AutomationTarget>
+									<ModulationTarget Id="0">
+										<LockEnvelope Value="0" />
+									</ModulationTarget>
+								</Gain>
+								<LegacyGain>
+									<LomId Value="0" />
+									<Manual Value="0" />
+									<MidiControllerRange>
+										<Min Value="-35" />
+										<Max Value="35" />
+									</MidiControllerRange>
+									<AutomationTarget Id="0">
+										<LockEnvelope Value="0" />
+									</AutomationTarget>
+									<ModulationTarget Id="0">
+										<LockEnvelope Value="0" />
+									</ModulationTarget>
+								</LegacyGain>
+								<Mute>
+									<LomId Value="0" />
+									<Manual Value="false" />
+									<AutomationTarget Id="0">
+										<LockEnvelope Value="0" />
+									</AutomationTarget>
+									<MidiCCOnOffThresholds>
+										<Min Value="64" />
+										<Max Value="127" />
+									</MidiCCOnOffThresholds>
+								</Mute>
+								<DcFilter>
+									<LomId Value="0" />
+									<Manual Value="false" />
+									<AutomationTarget Id="0">
+										<LockEnvelope Value="0" />
+									</AutomationTarget>
+									<MidiCCOnOffThresholds>
+										<Min Value="64" />
+										<Max Value="127" />
+									</MidiCCOnOffThresholds>
+								</DcFilter>
+								<LegacyMode Value="false" />
+							</StereoGain>
+						</Device>
+						<PresetRef>
+							<AbletonDefaultPresetRef Id="0">
+								<FileRef>
+									<HasRelativePath Value="false" />
+									<RelativePathType Value="0" />
+									<RelativePath />
+									<Name Value="" />
+									<Type Value="0" />
+									<Data />
+									<RefersToFolder Value="false" />
+									<SearchHint>
+										<PathHint />
+										<FileSize Value="0" />
+										<Crc Value="0" />
+										<MaxCrcSize Value="0" />
+										<HasExtendedInfo Value="false" />
+									</SearchHint>
+									<LivePackName Value="" />
+									<LivePackId Value="" />
+								</FileRef>
+								<DeviceId Name="StereoGain" />
+							</AbletonDefaultPresetRef>
+						</PresetRef>
+					</AbletonDevicePreset>
+				</DevicePresets>
+				<MixerPreset>
+					<AbletonDevicePreset Id="0">
+						<OverwriteProtectionNumber Value="2561" />
+						<Device>
+							<AudioBranchMixerDevice Id="0">
+								<LomId Value="0" />
+								<LomIdView Value="0" />
+								<IsExpanded Value="true" />
+								<On>
+									<LomId Value="0" />
+									<Manual Value="true" />
+									<AutomationTarget Id="0">
+										<LockEnvelope Value="0" />
+									</AutomationTarget>
+									<MidiCCOnOffThresholds>
+										<Min Value="64" />
+										<Max Value="127" />
+									</MidiCCOnOffThresholds>
+								</On>
+								<ParametersListWrapper LomId="0" />
+								<LastSelectedTimeableIndex Value="0" />
+								<LastSelectedClipEnvelopeIndex Value="0" />
+								<LastPresetRef>
+									<Value />
+								</LastPresetRef>
+								<LockedScripts />
+								<IsFolded Value="false" />
+								<ShouldShowPresetName Value="true" />
+								<UserName Value="" />
+								<Annotation Value="" />
+								<SourceContext>
+									<Value />
+								</SourceContext>
+								<OverwriteProtectionNumber Value="2561" />
+								<Speaker>
+									<LomId Value="0" />
+									<Manual Value="true" />
+									<AutomationTarget Id="0">
+										<LockEnvelope Value="0" />
+									</AutomationTarget>
+									<MidiCCOnOffThresholds>
+										<Min Value="64" />
+										<Max Value="127" />
+									</MidiCCOnOffThresholds>
+								</Speaker>
+								<Volume>
+									<LomId Value="0" />
+									<Manual Value="1" />
+									<MidiControllerRange>
+										<Min Value="0.0003162277571" />
+										<Max Value="1.99526238" />
+									</MidiControllerRange>
+									<AutomationTarget Id="0">
+										<LockEnvelope Value="0" />
+									</AutomationTarget>
+									<ModulationTarget Id="0">
+										<LockEnvelope Value="0" />
+									</ModulationTarget>
+								</Volume>
+								<Panorama>
+									<LomId Value="0" />
+									<Manual Value="0" />
+									<MidiControllerRange>
+										<Min Value="-1" />
+										<Max Value="1" />
+									</MidiControllerRange>
+									<AutomationTarget Id="0">
+										<LockEnvelope Value="0" />
+									</AutomationTarget>
+									<ModulationTarget Id="0">
+										<LockEnvelope Value="0" />
+									</ModulationTarget>
+								</Panorama>
+								<SendInfos />
+								<RoutingHelper>
+									<Routable>
+										<Target Value="AudioOut/None" />
+										<UpperDisplayString Value="No Output" />
+										<LowerDisplayString Value="" />
+									</Routable>
+									<TargetEnum Value="0" />
+								</RoutingHelper>
+								<SendsListWrapper LomId="0" />
+							</AudioBranchMixerDevice>
+						</Device>
+						<PresetRef>
+							<AbletonDefaultPresetRef Id="0">
+								<FileRef>
+									<HasRelativePath Value="false" />
+									<RelativePathType Value="0" />
+									<RelativePath />
+									<Name Value="" />
+									<Type Value="0" />
+									<Data />
+									<RefersToFolder Value="false" />
+									<SearchHint>
+										<PathHint />
+										<FileSize Value="0" />
+										<Crc Value="0" />
+										<MaxCrcSize Value="0" />
+										<HasExtendedInfo Value="false" />
+									</SearchHint>
+									<LivePackName Value="" />
+									<LivePackId Value="" />
+								</FileRef>
+								<DeviceId Name="AudioBranchMixerDevice" />
+							</AbletonDefaultPresetRef>
+						</PresetRef>
+					</AbletonDevicePreset>
+				</MixerPreset>
+				<BranchSelectorRange>
+					<Min Value="0" />
+					<Max Value="0" />
+					<CrossfadeMin Value="0" />
+					<CrossfadeMax Value="0" />
+				</BranchSelectorRange>
+				<SessionViewBranchWidth Value="55" />
+				<ColorIndex Value="163" />
+				<AutoColored Value="true" />
+				<AutoColorScheme Value="0" />
+				<SourceContext />
+			</AudioEffectBranchPreset>
+		</BranchPresets>
+		<ReturnBranchPresets />
+	</GroupDevicePreset>
+</Ableton>
