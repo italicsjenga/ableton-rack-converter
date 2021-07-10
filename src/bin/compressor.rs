@@ -1,3 +1,5 @@
+#![windows_subsystem = "windows"]
+
 use ableton_rack_converter;
 use std::{fs, path::PathBuf};
 

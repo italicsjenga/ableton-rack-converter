@@ -1,6 +1,7 @@
-use std::{env, path::PathBuf};
+#![windows_subsystem = "windows"]
 
 use ableton_rack_converter::{self, fixers};
+use std::{env, path::PathBuf};
 
 fn main() {
     let args: Vec<String> = env::args().collect();
