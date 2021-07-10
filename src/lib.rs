@@ -1,50 +1,46 @@
-use flate2::read::GzDecoder;
-use minidom::Element;
-use std::{fs::File, io::Read, str};
+use flate2::{read::GzDecoder, write::GzEncoder, Compression};
+use std::{
+    fs::{self, File},
+    io::{Read, Write},
+    str,
+};
+use xml_dom::{level2::RefNode, parser};
 
-pub fn load_adg(filename: &str) -> AbletonDeviceGroup {
-    let contents = File::open(filename).unwrap();
+pub fn load_adg(filename: &str) -> RefNode {
+    let contents = File::open(filename).expect("failed to load file");
     let xml = decompress(contents);
-    let stripped = strip_first_line(&xml);
-    // println!("{}", stripped);
-    decode(&stripped);
-    AbletonDeviceGroup::new(xml)
+    decode(&xml)
 }
 
 fn decompress(loaded_file: File) -> String {
     let mut decoder = GzDecoder::new(loaded_file);
     let mut decompressed = String::new();
-    decoder.read_to_string(&mut decompressed).unwrap();
+    decoder
+        .read_to_string(&mut decompressed)
+        .expect("could not decompress file");
     decompressed
 }
 
-fn decode(xml: &str) {
-    let root: Result<Element, _> = xml.parse();
-    println!("{:?}", root);
-    // let root2 = root.unwrap();
+fn decode(xml: &str) -> RefNode {
+    parser::read_xml(xml).expect("failed to parse xml")
 }
 
-fn strip_first_line(text: &str) -> &str {
-    let bytes = text.trim().as_bytes();
-    for (i, &val) in bytes.iter().enumerate() {
-        if val == b'\n' {
-            return &text[i + 1..bytes.len()];
-        }
-    }
-    &text
+pub fn save_adg(dom: &RefNode, filename: &str) {
+    let xml = encode(dom);
+    let compressed = compress(&xml);
+    fs::write(filename, compressed).expect("could not write file");
 }
 
-pub struct AbletonDeviceGroup {
-    body: String,
+fn compress(xml: &str) -> Vec<u8> {
+    let mut encoder = GzEncoder::new(Vec::new(), Compression::default());
+    encoder
+        .write_all(xml.as_bytes())
+        .expect("could not compress");
+    encoder.finish().unwrap()
 }
 
-impl AbletonDeviceGroup {
-    pub fn new(body: String) -> AbletonDeviceGroup {
-        AbletonDeviceGroup { body }
-    }
-    pub fn get_body(&self) -> &str {
-        &self.body
-    }
+fn encode(dom: &RefNode) -> String {
+    dom.to_string()
 }
 
 #[cfg(test)]

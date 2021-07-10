@@ -7,5 +7,4 @@ edition = "2018"
 
 [dependencies]
 flate2 = "1.0"
-quick-xml = "0.22.0"
-minidom = "0.13.0"
+xml_dom = "0.2.5"
