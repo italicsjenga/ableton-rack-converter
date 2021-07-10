@@ -9,7 +9,7 @@ use xml_dom::{level2::RefNode, parser};
 
 pub mod fixers;
 
-pub fn load_adg(filename: &str) -> RefNode {
+pub fn load_adg(filename: PathBuf) -> RefNode {
     let contents = File::open(filename).expect("failed to load file");
     let xml = decompress(contents);
     decode(&xml)
@@ -28,13 +28,13 @@ fn decode(xml: &str) -> RefNode {
     parser::read_xml(xml).expect("failed to parse xml")
 }
 
-pub fn save_adg(dom: &RefNode, filename: &str) {
+pub fn save_adg(dom: &RefNode, filename: PathBuf) {
     let xml = encode(dom);
     let compressed = compress(&xml);
     fs::write(filename, compressed).expect("could not write file");
 }
 
-pub fn save_uncompressed(dom: &RefNode, filename: &str) {
+pub fn save_uncompressed(dom: &RefNode, filename: PathBuf) {
     let xml = encode(dom);
     fs::write(filename, xml.as_bytes()).expect("could not write file");
 }
