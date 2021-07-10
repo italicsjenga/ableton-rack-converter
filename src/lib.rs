@@ -6,6 +6,8 @@ use std::{
 };
 use xml_dom::{level2::RefNode, parser};
 
+pub mod fixers;
+
 pub fn load_adg(filename: &str) -> RefNode {
     let contents = File::open(filename).expect("failed to load file");
     let xml = decompress(contents);
@@ -29,6 +31,11 @@ pub fn save_adg(dom: &RefNode, filename: &str) {
     let xml = encode(dom);
     let compressed = compress(&xml);
     fs::write(filename, compressed).expect("could not write file");
+}
+
+pub fn save_uncompressed(dom: &RefNode, filename: &str) {
+    let xml = encode(dom);
+    fs::write(filename, xml.as_bytes()).expect("could not write file");
 }
 
 fn compress(xml: &str) -> Vec<u8> {
