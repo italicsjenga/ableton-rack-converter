@@ -3,7 +3,6 @@ use xml_dom::level2::{Attribute, Node, RefNode};
 pub fn traverse_children(node: &mut RefNode) {
     if node.node_name().to_string() == "Ableton" {
         for (name, mut attribute) in node.attributes() {
-            println!("{}: {}", name, attribute);
             match name.to_string().as_str() {
                 "MajorVersion" => attribute.set_value("5").unwrap(),
                 "MinorVersion" => attribute.set_value("10.0_370").unwrap(),

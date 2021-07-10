@@ -10,7 +10,6 @@ fn main() {
             path_str.push_str(loadpath.file_stem().unwrap().to_str().unwrap());
             path_str.push_str("-compressed.adg");
             let savepath = PathBuf::from(path_str);
-            println!("{:?}", savepath);
             ableton_rack_converter::compress_file(loadpath, savepath);
         }
     }
