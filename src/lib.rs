@@ -2,6 +2,7 @@ use flate2::{read::GzDecoder, write::GzEncoder, Compression};
 use std::{
     fs::{self, File},
     io::{Read, Write},
+    path::PathBuf,
     str,
 };
 use xml_dom::{level2::RefNode, parser};
@@ -36,6 +37,16 @@ pub fn save_adg(dom: &RefNode, filename: &str) {
 pub fn save_uncompressed(dom: &RefNode, filename: &str) {
     let xml = encode(dom);
     fs::write(filename, xml.as_bytes()).expect("could not write file");
+}
+
+pub fn compress_file(loadpath: PathBuf, savepath: PathBuf) {
+    let mut contents = File::open(loadpath).expect("failed to load file");
+    let mut loaded = String::new();
+    contents
+        .read_to_string(&mut loaded)
+        .expect("failed to read file to string");
+    let compressed = compress(&loaded);
+    fs::write(savepath, compressed).expect("failed to write compressed file");
 }
 
 fn compress(xml: &str) -> Vec<u8> {
