@@ -9,7 +9,7 @@ fn main() {
         return;
     }
     let file_load = PathBuf::from(args[1].as_str());
-    if file_load.extension().expect("no extension") != "adg" {
+    if file_load.extension().expect("wrong/no extension") != "adg" {
         return;
     }
     let mut path_str = String::from("");
