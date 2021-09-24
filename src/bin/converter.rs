@@ -12,7 +12,7 @@ fn main() {
     if file_load.extension().expect("no extension") != "adg" {
         return;
     }
-    let mut path_str = String::from(".\\");
+    let mut path_str = String::from("");
     path_str.push_str(file_load.file_stem().unwrap().to_str().unwrap());
     path_str.push_str("-live10.adg");
     let file_save = PathBuf::from(path_str);
