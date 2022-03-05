@@ -9,14 +9,22 @@ fn main() {
         return;
     }
     let file_load = PathBuf::from(args[1].as_str());
-    if file_load.extension().expect("wrong/no extension") != "adg" {
+    let extension = file_load
+        .extension()
+        .expect("wrong/no extension")
+        .to_str()
+        .unwrap();
+    if !ableton_rack_converter::validate_filetype(extension) {
         return;
     }
-    let mut path_str = String::from("");
-    path_str.push_str(file_load.file_stem().unwrap().to_str().unwrap());
-    path_str.push_str("-live10.adg");
+    let path_str = format!(
+        "{}{}{}",
+        file_load.file_stem().unwrap().to_str().unwrap(),
+        "-live10.",
+        extension
+    );
     let file_save = PathBuf::from(path_str);
-    let mut device = ableton_rack_converter::load_adg(file_load);
+    let mut device = ableton_rack_converter::load_ableton_file(file_load);
     fixers::traverse_children(&mut device);
-    ableton_rack_converter::save_adg(&device, file_save);
+    ableton_rack_converter::save_ableton_file(&device, file_save);
 }
