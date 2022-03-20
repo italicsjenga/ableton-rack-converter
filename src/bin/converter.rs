@@ -25,6 +25,6 @@ fn main() {
     );
     let file_save = PathBuf::from(path_str);
     let mut device = ableton_rack_converter::load_ableton_file(file_load);
-    fixers::traverse_children(&mut device);
+    fixers::traverse_children(&mut device, None);
     ableton_rack_converter::save_ableton_file(&device, file_save);
 }
