@@ -56,4 +56,4 @@ fn fix_scenes(node: &mut RefNode, parent: &mut RefNode) {
         .expect("Couldn't append new child node");
 }
 
-fn fix_overwrite_protection(node: &mut RefNode) {}
+fn fix_overwrite_protection(_node: &mut RefNode) {}
